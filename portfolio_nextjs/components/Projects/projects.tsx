@@ -73,7 +73,6 @@ interface Project {
     {/*Right Side*/}
         <div className="flex items-center flex-row">
             <img
-                loading="lazy"
                 src={projectsData[currentProjectIndex].imageUrl}
                 alt={projectsData[currentProjectIndex].name}
                 width={300}
