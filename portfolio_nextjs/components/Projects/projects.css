@@ -1,0 +1,27 @@
+
+.project-select {
+    margin: auto;
+    padding: 0.4rem;
+    @apply transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-150
+}
+
+.project-select:hover {
+    background: radial-gradient( rgb(52, 25, 173), rgb(61, 180, 115));
+    color: #2ea02b;
+    border: 1px solid var(--border-primary);
+    border-radius: 2rem;
+}
+
+.border {
+    margin: 0px auto;
+    width: 50rem;
+    height: 20rem;
+    border: 1px solid var(--border-primary);
+    border-radius: 1rem;
+  }
+
+.technologies {
+    @apply
+    font-extralight
+    text-sm
+}

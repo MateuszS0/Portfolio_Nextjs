@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    --nav-height: 3.9rem
+}
+.navbar-wrapper {
+    background: linear-gradient(to right, rgb(8, 20, 38) 20%, rgb(14, 26, 51) 50%, rgb(8, 20, 38) 80%);
+    top: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: var(--nav-height);
+    transition: transform 0.2s ease;
+    position: fixed;
+}
+/* maybe add opacity ? */
+
+.navbar-wrapper.hide {
+    transform: translateY(calc(-1*var(--nav-height)));
+}

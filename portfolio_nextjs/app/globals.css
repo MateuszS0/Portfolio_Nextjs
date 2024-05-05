@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-rgb: 8, 20, 38;
+  --text-rgb-primary: 169, 162, 151;
+  --text-rgb-secondary: 96, 255, 217;
+  --shadow-primary: #009076;
+  --border-primary: #009571;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-rgb: 8, 20, 38;
+  }
+}
+
+body {
+  color: rgb(var(--text-rgb-primary));
+  background: rgb(var(--background-rgb))
+  
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.shadow {
+  outline: none;
+  box-shadow: 4px 4px 0 0 var(--shadow-primary);
+    transform: translate(-5px, -5px);
+}
+.text-decoration-primary {
+  color: #32a16d;
+}
+
+.button {
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.6rem 0.75rem;
+  border-radius: 2rem;    /* Could make them more blocky */
+  border: 1px solid var(--border-primary);
+  box-shadow: 3px 3px 3px var(--shadow-primary);
+  @apply transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-150
+}
+.button:hover {
+  background: radial-gradient( rgb(52, 25, 173), rgb(61, 180, 115));
+  color: #2ea02b;
+}
