@@ -32,7 +32,7 @@ useEffect(() => {
             <div className="button" onClick={()=>scrollToSection("about")}>About</div>
             <div className="button" onClick={()=>scrollToSection("skills")}>Skills</div>
             <div className="button" onClick={()=>scrollToSection("projects")}>Projects</div>
-            <div className="button" onClick={()=>scrollToSection("contact")}>Contact</div>
+            {/* <div className="button" onClick={()=>scrollToSection("contact")}>Contact</div> */}
         </nav>
     )
 }
