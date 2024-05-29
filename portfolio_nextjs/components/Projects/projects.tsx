@@ -56,7 +56,7 @@ interface Project {
 
     return(
     <div className="grid items-center mb-20" id="projects">
-    <h2 className="flex justify-center my-20 text-4xl">Projects</h2>
+    <h2 className="flex justify-center my-16 text-4xl">Projects</h2>
     <div className="border flex justify-between p-6">
     {/*Left Side*/}
     <div className="grid justify-start text-nowrap w-1/6 py-8">
