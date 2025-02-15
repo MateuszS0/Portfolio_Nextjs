@@ -36,7 +36,7 @@ const page: React.FC = () => {
 
   const handleSubmit = (input: string) => {
     if (input.trim().toLowerCase() === "true" || input.trim() === "1") {
-        router.push('/NewComponent');
+        router.push('/Dark');
     } else if (input.trim().toLowerCase() === "false" || input.trim() === "0") {
         router.push('/');
     } else {
@@ -52,7 +52,7 @@ const page: React.FC = () => {
 
   return (
     <div className="darkmode-wrapper flex justify-center items-center flex-col">
-    <div className="glitchy-text">
+    <div className="glitchy-text text-lg text-center">
       {originalText.split('').map((char, i) => (
         <span key={i} className={glitchIndices.includes(i) ? 'glitch' : ''}>
           {glitchIndices.includes(i) ? getRandomGlitchChar() : char}
@@ -62,7 +62,7 @@ const page: React.FC = () => {
         <pre className="code-snippet">
             {`const darkMode = () => {\n  return `}
             <input
-            placeholder="TruFalseFalseFalse"
+            placeholder="Tr▓F▒lse▓alseFalse"
             type="text"
             value={userInput}
             onChange={handleInputChange}

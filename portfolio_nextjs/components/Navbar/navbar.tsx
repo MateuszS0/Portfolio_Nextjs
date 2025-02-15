@@ -33,7 +33,7 @@ useEffect(() => {
             <div className="button" onClick={()=>scrollToSection("about")}>About</div>
             <div className="button" onClick={()=>scrollToSection("skills")}>Skills</div>
             <div className="button" onClick={()=>scrollToSection("projects")}>Projects</div>
-              {/* <Link href={"/DarkMode"} className="button flex justify-end items-end">Dark Mode ?</Link> */}
+              <Link href={"/DarkMode"} className="button flex justify-end items-end">Dark Mode ?</Link>
         </nav>
     )
 }

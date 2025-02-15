@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: #00ff00;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.rebooting-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.glitchy-text {
+  font-size: 2rem;
+  position: relative;
+  color: #00ff00;
+  /* animation: glitch 1.5s infinite; */
+}
+
+.dots {
+  font-size: 2rem;
+  color: #00ff00;
+}
+
+.random-text {
+  font-size: 1.2rem;
+  white-space: pre-wrap;
+  text-align: left;
+  margin-top: 20px;
+  /* border: 1px solid #00ff00; */
+  padding: 10px;
+  width: 90%;
+  max-width: 600px;
+  height: 300px;
+  overflow-y: auto;
+}
+
+/* @keyframes glitch {
+  0% {
+    text-shadow: 2px 2px 0px rgba(50, 255, 32, 0.75),
+                 -2px -2px 0px rgba(39, 35, 238, 0.75);
+  }
+  25% {
+    text-shadow: -2px -2px 0px rgba(255, 0, 0, 0.75),
+                 2px 2px 0px rgba(0, 0, 255, 0.75);
+  }
+  50% {
+    text-shadow: 2px 2px 0px rgba(255, 0, 0, 0.75),
+                 -2px -2px 0px rgba(0, 0, 255, 0.75);
+  }
+  75% {
+    text-shadow: -2px -2px 0px rgba(255, 0, 0, 0.75),
+                 2px 2px 0px rgba(0, 0, 255, 0.75);
+  }
+  100% {
+    text-shadow: 2px 2px 0px rgba(255, 0, 0, 0.75),
+                 -2px -2px 0px rgba(0, 0, 255, 0.75);
+  }
+} */
+
+

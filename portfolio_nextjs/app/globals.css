@@ -50,3 +50,13 @@ body {
   background: radial-gradient( rgb(52, 25, 173), rgb(61, 180, 115));
   color: #2ea02b;
 }
+
+.green-text {
+  color: #00ff00;
+}
+
+.modal-content {
+  background-color: black;
+  /* box-shadow: 0px 0px 10px 15px rgba(0, 0, 0, 0.1); */
+  border-radius: 15px;
+}
